@@ -273,7 +273,7 @@ exit/b
 :choice 
 rem 1=title 2=options 3=output_variable                                          example: call :choice Choose "op1,op2,op3" result 
 setlocal & set "c=about:<title>%~1</title><head><script language='javascript'>window.moveTo(-200,-200);window.resizeTo(100,500);" 
-set "c=%c% </script><hta:application icon='C:\Users\jaked\Documents\favicon.ico' innerborder='no' sysmenu='yes' scroll='no'><style>body{background-color:#17141F;}"
+set "c=%c% </script><hta:application' innerborder='no' sysmenu='yes' scroll='no'><style>body{background-color:#17141F;}"
 set "c=%c% br{font-size:14px;vertical-align:-4px;} .button{background-color:#7D5BBE;border:2px solid #392E5C; color:white;"
 set "c=%c% padding:4px 4px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;cursor:pointer;"
 set "c=%c% width:100%%;display:block;}</style></head><script language='javascript'>function choice(){"
